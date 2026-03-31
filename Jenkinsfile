@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/heroku/node-js-sample.git'
+                git 'https://github.com/parthaa6369/node-docker-jenkins.git'
             }
         }
 
